@@ -1,0 +1,61 @@
+html {
+
+    font-size: 80%;
+}
+
+body {
+
+    font-family: sans-serif;
+}
+
+
+form {
+
+    border: 2px solid lightgrey;
+    padding: .6rem;
+    border-radius: 0 .4rem .4rem .4rem;
+}
+
+textarea {
+
+    resize: none;
+    width: 100%;
+    border: none;
+    font-size: .8rem;
+}
+
+footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+
+.chave {
+
+    display: flex;
+    align-items: center;
+}
+
+
+.chave span {
+
+    background: grey;
+    width: 8px;
+    height: 8px;
+    margin-right: .4rem;
+
+}
+
+
+button {
+
+    height: 30px;
+    background: lightblue;
+    border: none;
+    border-radius: .4rem;
+    color: white;
+}
